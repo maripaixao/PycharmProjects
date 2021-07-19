@@ -1,0 +1,5 @@
+print("P R O M O Ç Ã O")
+preço = float(input("O PlayStation 5 está no valor de R$"))
+vista = preço - (preço*10/100)
+prazo = preço + (preço*8/100)
+print("Pagando a vista, o valor do produto fica por R${:.2f}, e a prazo fica por R${:.2f}".format(vista, prazo))
